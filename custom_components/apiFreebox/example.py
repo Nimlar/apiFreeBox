@@ -5,12 +5,12 @@
 This example can be run safely as it won't change anything in your box configuration
 '''
 
-from freepybox import Freepybox
+from freepybox import freepybox
 
 
 # Instantiate Freepybox class using default application descriptor 
 # and default token_file location
-fbx = Freepybox()
+fbx = freepybox()
 
 # Connect to the freebox with default http protocol
 # and default port 80
